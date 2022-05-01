@@ -1,0 +1,101 @@
+.navbar {
+  /* background: rgb(31, 31, 31); */
+  width: 100%;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  position: absolute;
+  z-index: 2;
+  font-family: "Libre Baskerville";
+}
+
+.home:hover {
+  color: var(--brownlight);
+}
+.home {
+  color: var(--white);
+  transition: 0.5s;
+  font-size: 40px;
+  margin-left: 1rem;
+}
+
+/* .shopName {
+  width: 220px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.link {
+  /* background: rgb(255, 143, 143); */
+  width: 90px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+}
+
+.navlink:hover {
+  color: var(--brownlight);
+  transition: 0.25s;
+}
+.navlink {
+  color: var(--white);
+  border-bottom: 3px solid rgb(31, 31, 31, 0);
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  font-size: 14px;
+  color: var(--white);
+}
+
+.active {
+  color: var(--brownlight);
+  border-bottom: 3px solid var(--brownlight);
+}
+
+.divider {
+  background: var(--white);
+  width: 2px;
+  height: 30px;
+  margin: auto 1rem auto 1.5rem;
+}
+
+.cart {
+  width: 50px;
+  margin-right: 1rem;
+}
+
+.login:hover {
+  color: var(--brownlight);
+  border: 1px solid var(--brownlight);
+  transition: 0.25s;
+}
+
+.login {
+  width: 90px;
+  height: 36px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.activeLogin {
+  color: var(--brownlight);
+  border: 1px solid var(--brownlight);
+}

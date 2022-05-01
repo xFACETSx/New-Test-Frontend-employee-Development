@@ -1,0 +1,89 @@
+.coverHeader {
+    background: #202020c7;
+    height: 300px;
+    width: 100%;
+}
+.imgHeader {
+    background-image: url(../../picture/img15.jpeg);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+.textHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Libre Baskerville";
+    height: 300px;
+    width: 100%;
+    color: var(--white);
+    position: absolute;
+    z-index: 1;
+}
+
+.cover {
+    padding: 2rem 6rem 4rem 6rem;
+}
+.coverContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+.title {
+    font-family: "Libre Baskerville";
+}
+.titleReStock {
+    width: 100%;
+    text-align: start;
+    font-family: "Libre Baskerville";
+}
+.coverTable {
+    margin-top: 4rem;
+}
+.table {
+    font-family: "Libre Baskerville";
+}
+.editStock {
+    /* background: #000; */
+    color: var(--brownlight);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.coverButton {
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+    font-family: "Libre Baskerville";
+}
+.buttonAddIngredient {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+    font-size: 16px;
+}
+.buttonReStock {
+    width: 150px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cover {
+        padding: 2rem;
+    }
+    .coverContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,97 @@
+.coverHeader {
+    background: #202020c7;
+    height: 300px;
+    width: 100%;
+}
+.imgHeader {
+    background-image: url(../../picture/img15.jpeg);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+.textHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Libre Baskerville";
+    height: 300px;
+    width: 100%;
+    color: var(--white);
+    position: absolute;
+    z-index: 1;
+}
+
+.container {
+    background: var(--white);
+    min-height: 72vh;
+    display: grid;
+    padding: 4rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.coverFunction {
+    /* background: rgb(255, 121, 121); */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+.search {
+    font-family: "Libre Baskerville";
+}
+.coverFilterAndSort {
+    /* background: rgb(73, 115, 255); */
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.filterFunction {
+    width: 110px;
+    border-radius: 2px;
+    background: var(--brownlight);
+}
+.sortFunction {
+    width: 160px;
+    border-radius: 2px;
+}
+
+.menuList {
+    /* background: rgb(255, 144, 144); */
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, 280px); */
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: space-between;
+}
+.text {
+    color: var(--gray3);
+    font-size: 12px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 22px;
+    height: 100px;
+    border-radius: 2px;
+    color: var(--white);
+    background: var(--brownlight);
+}
+
+/* .ant-table-wrapper{
+    font-size: 100px !important;
+} */

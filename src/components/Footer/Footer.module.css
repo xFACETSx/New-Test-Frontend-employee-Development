@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-family: "Libre Baskerville";
+    color: var(--white);
+}
+
+.imgCover {
+    background-image: url(../../picture/footer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+    height: 400px;
+    width: 100%;
+}
+.footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+    width: 1000px;
+    position: absolute;
+}
+.openHour {
+    width: 300px;
+    height: 300px;
+}
+.inOpenHour {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+.coverInOpenHour {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+.textInOpenHour {
+    width: 100px;
+    text-align: end;
+    font-size: 14px;
+}
+.lineHorizon {
+    border-bottom: 1.6px solid var(--white);
+    width: 90px;
+    height: 18px;
+}
+.time {
+    width: 100px;
+    text-align: start;
+    font-size: 14px;
+}
+.close {
+    color: var(--brownlight);
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.contact {
+    width: 300px;
+    height: 300px;
+}
+.inContact {
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.coverInContact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.icon {
+    width: 50px;
+    font-size: 24px;
+}
+
+.location {
+    width: 300px;
+    height: 300px;
+}
+.coverInLocation {
+    padding-left: 0.75rem;
+    display: flex;
+    align-items: flex-start;
+}
+.iconLocation {
+    width: 50px;
+    font-size: 22px;
+}
+
+.header {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.detail {
+    font-size: 14px;
+}

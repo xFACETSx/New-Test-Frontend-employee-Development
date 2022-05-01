@@ -1,0 +1,74 @@
+.coverHeader {
+    background: #202020c7;
+    height: 300px;
+    width: 100%;
+}
+.imgHeader {
+    background-image: url(../../picture/img15.jpeg);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+.textHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Libre Baskerville";
+    height: 300px;
+    width: 100%;
+    color: var(--white);
+    position: absolute;
+    z-index: 1;
+}
+
+.cover {
+    padding: 4rem 6rem;
+}
+
+.coverTable {
+    margin-top: 2rem;
+}
+.table {
+    font-family: "Libre Baskerville";
+}
+.coverButton {
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+    font-family: "Libre Baskerville";
+}
+.buttonReStock {
+    width: 200px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.editEmployee {
+    /* background: #000; */
+    color: var(--brownlight);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.imgEmployee {
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cover {
+        padding: 2rem;
+    }
+}
